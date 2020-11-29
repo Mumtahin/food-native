@@ -13,6 +13,7 @@ const SearchBar = () => {
 
 const styles = StyleSheet.create({
 	backgroundStyle: {
+		marginTop: 15,
 		// backgroundColor: '#F0EEEE',
 		backgroundColor: '#FFF',
 		height: 50,
@@ -22,13 +23,13 @@ const styles = StyleSheet.create({
 		alignItems: 'center'
 	},
 	inputStyle: {
-		borderColor: 'black',
-		borderWidth: 1,
-		flex: 1
+		flex: 1,
+		fontSize: 18
 	},
 	iconStyle: {
 		fontSize: 35,
-		alignSelf: 'center'
+		alignSelf: 'center',
+		marginHorizontal: 15
 	}
 });
 
